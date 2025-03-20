@@ -12,18 +12,11 @@ class CategoriesListView extends StatelessWidget {
           'assets/contemporary-building-exterior-skyscraper-design-concept.jpg',
       categoryName: 'Business',
     ),
-    CategoryModel(
-      image: 'assets/entertaiment.avif',
-      categoryName: 'Entertainment',
-    ),
+
     CategoryModel(image: 'assets/health.avif', categoryName: 'Health'),
     CategoryModel(image: 'assets/science.avif', categoryName: 'Science'),
     CategoryModel(image: 'assets/technology.jpeg', categoryName: 'Technology'),
     CategoryModel(image: 'assets/sports-tools.jpg', categoryName: 'Sports'),
-    CategoryModel(
-      image: 'assets/red-light-round-podium-black-background-mock-up.jpg',
-      categoryName: 'General',
-    ),
   ];
   @override
   Widget build(BuildContext context) {
